@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum kit</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+  <div class="keys">
+    <div class="key" data-key="69">
+      <kbd>E</kbd>
+      Crash
+    </div>
+    <div class="key" data-key="82">
+      <kbd>R</kbd>
+      Ride
+    </div>
+    <div class="key" data-key="76">
+      <kbd>L</kbd>
+      Low Tom
+    </div>
+    <div class="key" data-key="77">
+      <kbd>M</kbd>
+      Mid Tom
+    </div>
+    <div class="key" data-key="72">
+      <kbd>H</kbd>
+      High Tom
+    </div>
+    <div class="key" data-key="75">
+      <kbd>K</kbd>
+      Kick
+    </div>
+    <div class="key" data-key="74">
+      <kbd>J</kbd>
+      Snare
+    </div>
+    <div class="key" data-key="73">
+      <kbd>I</kbd>
+      Hit-Hat Open
+    </div>
+    <div class="key" data-key="66">
+      <kbd>B</kbd>
+      Hit-Hat Closed
+    </div>
+  </div>
+  <audio src="./sounds/crash.wav" data-key="69"></audio>
+  <audio src="./sounds/ride.wav" data-key="82"></audio>
+  <audio src="./sounds/low.wav" data-key="76"></audio>
+  <audio src="./sounds/mid.wav" data-key="77"></audio>
+  <audio src="./sounds/high.wav" data-key="72"></audio>
+  <audio src="./sounds/kick.wav" data-key="75"></audio>
+  <audio src="./sounds/snare.wav" data-key="74"></audio>
+  <audio src="./sounds/hihat-open.wav" data-key="73"></audio>
+  <audio src="./sounds/hihat-close.wav" data-key="66"></audio>
+
+  <!-- js -->
+  <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+body {
+  background-image: url(https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.keys {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: 1rem;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25rem;
+  background-color: hsla(0, 0%, 10%, 60%);
+  border-radius: 4px;
+  color: #fff;
+  padding: 0.5rem;
+  transition: transform .1s ease;
+}
+
+.playing {
+  transform: scale(1.1);
+  border: 2px solid #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .7);
+}
