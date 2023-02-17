@@ -4,3 +4,4 @@
 
 ### All Challenges
  - Day 1 - **Drum kit**
+ - Day 2 - **Analog Clock**
