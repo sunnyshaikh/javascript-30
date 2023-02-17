@@ -1,0 +1,38 @@
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  background: #05053e;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+}
+
+.hand {
+  position: absolute;
+  background: #fff;
+  bottom: 50%;
+  left: 50%;
+  translate: -50%;
+  transform-origin: bottom;
+}
+
+.hr {
+  width: 6px;
+  height: 25%;
+  opacity: .5;
+}
+
+.mn {
+  width: 4px;
+  height: 35%;
+  opacity: .75;
+}
+
+.sc {
+  width: 2px;
+  height: 45%;
+}
