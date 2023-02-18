@@ -1,0 +1,46 @@
+:root {
+  --base: #fff000;
+  --spacing: 5px;
+  --blur: 0px;
+}
+
+.inputs {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.title {
+  text-align: center;
+}
+
+.hl {
+  color: var(--base);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+}
+
+.inputs div {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  border: 1px solid #eee;
+  padding: 1rem;
+}
+
+.input {
+  flex: 1;
+}
+
+.img-box {
+  width: 450px;
+  margin: 2rem auto;
+  text-align: center;
+  overflow: hidden;
+  background: var(--base);
+  padding: var(--spacing);
+}
+
+img {
+  max-width: 100%;
+  filter: blur(var(--blur));
+}

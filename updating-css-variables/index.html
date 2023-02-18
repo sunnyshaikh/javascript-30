@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updating css variables with Js</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Updating Css variables <br />with <span class="hl">Js</span></h1>
+    <div class="inputs">
+      <div>
+        <label for="spacing">Spacing</label>
+        <input type="range" id="spacing" class="input" min="0" max="100" value="5" data-unit="px">
+      </div>
+      <div>
+        <label for="blur">Blur</label>
+        <input type="range" id="blur" class="input" min="0" max="20" value="0" data-unit="px">
+      </div>
+      <div>
+        <label for="base">Base color</label>
+        <input type="color" id="base" class="input" value="#fff000">
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="bg" id="img">
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
