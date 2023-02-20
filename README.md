@@ -6,3 +6,4 @@
  - Day 01 - **Drum kit**
  - Day 02 - **Analog Clock**
  - Day 03 - **Updating Css Variables with Js**
+ - Day 04 - **Array Cardio 1**
