@@ -1,0 +1,42 @@
+body {
+  background: gold;
+}
+
+.input-box {
+  width: 500px;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.lists {
+  list-style: none;
+  width: 500px;
+  margin: 1rem auto;
+  /* perspective: 700px; */
+  /* transform-style: preserve-3d; */
+}
+
+.list {
+  width: 100%;
+  padding: 1rem;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list:nth-child(odd) {
+  transform: rotateX(16deg);
+}
+
+.list:nth-child(even) {
+  transform: rotateX(-16deg);
+}
