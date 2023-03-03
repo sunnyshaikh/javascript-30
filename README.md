@@ -8,3 +8,4 @@
  - Day 03 - **Updating Css Variables with Js**
  - Day 04 - **Array Cardio 1**
  - Day 05 - **Flex Panel**
+ - Day 06 - **Ajax Type Ahead**
